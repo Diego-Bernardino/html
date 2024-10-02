@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form name="signup" autocomplete="off" onsubmit="alert('Enviado com sucesso!')" method="post" action="https://meusite.com.br/signup">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p><label for="name">Nome: </label>
+            <input type="text" name="name" id="nome"></p>
+            <p><label for="age">Idade: </label>
+            <input type="number" name="age" id="age"></p>
+            <p><label for="password">Senha: </label>
+            <input type="password" name="password" id="password"></p>
+        </fieldset>
+        <p><button type="submit">Enviar</button></p>
+    </form>
+</body>
+</html>
